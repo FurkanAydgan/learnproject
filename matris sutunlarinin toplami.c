@@ -3,7 +3,7 @@
 
 int main()
 {
-    int matris[3][4];
+    int matris[3][4];  /*eger istenilirse kullanicidan scanf komutu ile kaca kaclik bir matris alacagi sorulup toplamada yapilabilir*/
     int i,j;
     int sum=0;
     for(i=0;i < 3;i++){
@@ -17,17 +17,9 @@ int main()
         for(j=0;j < 4 ;j++){
             for(i=0;i < 3;i++){
                 sum+=matris[i][j];
-
-
-                }
+               }
             printf("%d 'ninci satirin toplami:%d\n",j,sum);
             sum=0;
         }
-
-
-
-
-
-
-    return 0;
+  return 0;
 }
